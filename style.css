@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+
+}
+
+.testimonial {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 1.1em;
+}
+
+.testimonial h5 {
+    margin-top: 10px;
+}
+
+.background-image {
+    background-image: url('assets/Image.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.testimonial-container {
+    position: relative;
+    z-index: 1;
+}
+
+.arrow-image {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 3;
+    max-width: 50%;
+}
+
+
+
+.overlay-image {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 2;
+    max-width: 100%;
+}
+
+.our-services-img {
+    height: 100px;
+    width: 500px;
+    /* Adjust the height as needed */
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.service-item h3 {
+    font-size: 1.4rem;
+}
+
+.service-item p {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers content horizontally */
+    text-align: center;
+    /* Aligns text */
+}
+
+
+
+.card {
+    border: none;
+    margin-top: 2rem;
+
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+}
+
+.arrows {
+    height: 40px;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+.image{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+}
+
+.second-image {
+    position:relative;
+    top: -180px;
+    left: -50px;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+}
+
+.rectangle {
+    position: relative;
+    top: 0px;
+    left: -100px;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .full-size {
+        max-height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .arrow-image {
+        position: absolute;
+        top: 230px;
+        left: 390px;
+        z-index: 3;
+        max-width: 100%;
+        height: 60px
+    }
+
+    .overlay-image {
+        max-width: 80%;
+    }
+
+
+
+    .icons {
+        padding-bottom: 140px;
+        height: auto;
+    }
+
+
+    .img-fluid {
+        max-width: 100%;
+        /* Reduce image size */
+        margin: auto;
+        /* Center images */
+        display: block;
+        /* Ensure block layout for centering */
+    }
+
+    .arrows {
+        width: 40px;
+    }
+
+
+}
